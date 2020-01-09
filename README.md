@@ -7,7 +7,7 @@ For using in different languages just import json, and retrieve value from map
 
 ```
 const icons = require("./icons.json");
-var emoji_icon = icons['01d'] //return emoji equal to 01d - clear sky
+var emoji_icon = icons['01d'] //return emoji equal to 01d - clear sky ☀
 
 ```
 # Python
@@ -16,5 +16,6 @@ var emoji_icon = icons['01d'] //return emoji equal to 01d - clear sky
 import json
 with open('icons.json', 'r') as f:
 	icons = json.load(f)
-emoji_icon = icons['01d'] //return emoji equal to 01d - clear sky
+emoji_icon = icons['01d'] #return emoji equal to 01d - clear sky ☀
+
 ```
